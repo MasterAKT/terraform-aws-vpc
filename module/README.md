@@ -1,5 +1,6 @@
-# Team2 Module for VPC
+# Team2 Source for VPC
 ## Run following commands to create VPC
+### Make sure to type all the commands manually, do not copy and paste!!!
 
 ```
 cd team2-vpc

@@ -11,10 +11,8 @@ private_cidr3               =   "192.168.3.0/24"
 
 
 tags    =   {
-    Name                    =   "VPC_Project"
+    Name                    =   "Team2_VPC"
     Environment             =   "Dev"
     Team                    =   "DevOps"
     Department              =   "IT"
-    Bill                    =   "CFO"
-    Quarter                 =   "3"
    }
