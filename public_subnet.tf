@@ -1,5 +1,6 @@
 resource "aws_subnet" "public1" {
   vpc_id            = "${aws_vpc.team2_vpc.id}"
+  map_public_ip_on_launch = "true"
   cidr_block        = "${var.public_cidr1}"
   availability_zone = "${var.region}a"
   tags              = "${var.tags}"
@@ -7,6 +8,7 @@ resource "aws_subnet" "public1" {
 
 resource "aws_subnet" "public2" {
   vpc_id            = "${aws_vpc.team2_vpc.id}"
+  map_public_ip_on_launch = "true"
   cidr_block        = "${var.public_cidr2}"
   availability_zone = "${var.region}b"
   tags              = "${var.tags}"
@@ -14,6 +16,7 @@ resource "aws_subnet" "public2" {
 
 resource "aws_subnet" "public3" {
   vpc_id            = "${aws_vpc.team2_vpc.id}"
+  map_public_ip_on_launch = "true"
   cidr_block        = "${var.public_cidr3}"
   availability_zone = "${var.region}c"
   tags              = "${var.tags}"
