@@ -5,7 +5,7 @@
 ```
 module "vpc" {
   source  = "ilkhomk/vpc/aws"
-  version = "1.0.4"
+  version = "1.1.0"
   # insert the 9 required variables here:
 region                      =   "us-east-1"
 cidr_block                  =   "10.0.0.0/16"
